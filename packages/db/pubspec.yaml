@@ -1,0 +1,20 @@
+name: db
+description: Database layer for Climbing Logbook
+version: 1.0.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  drift: ^2.21.0
+  drift_flutter: ^0.2.0
+  sqlite3_flutter_libs: ^0.5.24
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  core:
+    path: ../core
+
+dev_dependencies:
+  test: ^1.25.0
+  build_runner: ^2.4.13
+  drift_dev: ^2.21.0

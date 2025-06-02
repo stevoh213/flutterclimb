@@ -1,0 +1,15 @@
+name: ui
+description: Shared UI components and design system for Climbing Logbook
+version: 1.0.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.0
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  core:
+    path: ../core
